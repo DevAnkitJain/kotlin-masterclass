@@ -16,16 +16,18 @@ package samplecodes.collection
 *
 *
 * */
-import samplecodes.Persons
+
+import samplecodes.objectorientedconcepts.KotlinPerson
+
 fun main() {
     var personList = listOf(
-        Persons("alpha", 12),
-        Persons("beta", 23),
-        Persons("gamma", 34),
-        Persons("delta", 45),
+        KotlinPerson("alpha", 12),
+        KotlinPerson("beta", 23),
+        KotlinPerson("gamma", 34),
+        KotlinPerson("delta", 45),
     )
 
-    // personList.add(Persons("dummy", 4))
+    // personList.add(KotlinPerson("dummy", 4))
 
     // forEach: Iterate over each element and print their names
     personList.forEach {
@@ -50,10 +52,10 @@ fun main() {
     val sortedByAge = personList.sortedByDescending { it.age }
     // println(sortedByAge)
 
-    val plusList = personList + Persons("dummy", 4)
-    // val minusList = personList - Persons("beta", 23)
-    // val minusList = personList.minus(Persons("beta", 23))
-    val minusList = personList - listOf(Persons("beta", 23), Persons("alpha", 12))
+    val plusList = personList + KotlinPerson("dummy", 4)
+    // val minusList = personList - KotlinPerson("beta", 23)
+    // val minusList = personList.minus(KotlinPerson("beta", 23))
+    val minusList = personList - listOf(KotlinPerson("beta", 23), KotlinPerson("alpha", 12))
 
     minusList.forEach {
         println(it)

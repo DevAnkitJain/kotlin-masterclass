@@ -22,7 +22,7 @@ class KotlinPerson {
 
         println("Secondary constructor called")
     }*/
-   // override fun toString() = name + age
+    // override fun toString() = name + age
     fun greet() {
         println("Hello my name is $name and age is $age")
     }

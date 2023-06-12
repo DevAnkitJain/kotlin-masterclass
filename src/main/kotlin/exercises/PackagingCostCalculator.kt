@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 
 /*
 * Suppose you are owner of gift shop and you need to optimise the packaging cost for the product.
@@ -7,13 +7,11 @@ package Exercises
  */
 
 fun main() {
+    val productCost = 150
 
-    val productCost=150;
-
-    println("Packaging cost is "+determinePackagingCost(productCost))
-
+    println("Packaging cost is " + determinePackagingCost(productCost))
 }
 
 fun determinePackagingCost(productCost: Int) {
-   //Implement Here
+    // Implement Here
 }

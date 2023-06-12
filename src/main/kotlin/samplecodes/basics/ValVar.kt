@@ -5,16 +5,11 @@ fun main() {
 
     var age = 25 // Declaring a mutable variable
 
-
-
     println("Name: $name, Age: $age")
-
-
 
     // Updating the mutable variable
 
     age = 26
 
     println("Updated Age: $age")
-
 }

@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 
 /*
 * Given a person class with attributes name and age. You do not have rights to modify this class.
@@ -7,14 +7,12 @@ package Exercises
 *
 * */
 
-//You cannot modify this class
-class Person(val name:String, val age: Int)
+// You cannot modify this class
+class Person(val name: String, val age: Int)
 
 fun main() {
     val person1 = Person("bob", 12)
     val person2 = Person("alice", 24)
 
     // TODO
-
 }
-
